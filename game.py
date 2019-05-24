@@ -7,6 +7,7 @@ if __name__ == '__main__':
     print("WASD to move.")
     print("SPACE to shoot.")
     print("x to close.")
+    print("Push any key to start!")
     while True:
         user_input = readchar().decode(encoding='utf-8')
         game_board.update(user_input)
